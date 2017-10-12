@@ -1,6 +1,16 @@
 // 1. Your custom variables and variable overwrites.
 $global-primary-background: #053178;
 
+#showCaseLaptop {
+  li {
+    display: none;
+
+    &.uk-active {
+      display: block;
+    }
+  }
+}
+
 // 2. Import default variables and available mixins.
 @import "variables-theme.scss";
 @import "mixins-theme.scss";

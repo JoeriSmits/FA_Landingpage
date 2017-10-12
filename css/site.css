@@ -1,4 +1,9 @@
 @charset "UTF-8";
+#showCaseLaptop li {
+  display: none; }
+  #showCaseLaptop li.uk-active {
+    display: block; }
+
 /* ========================================================================
    Component: Base
  ========================================================================== */
