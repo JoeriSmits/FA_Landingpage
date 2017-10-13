@@ -4,7 +4,7 @@
   #showCaseLaptop li.uk-active {
     display: block; }
 
-nav {
+#navbar {
   z-index: 9999 !important; }
 
 /* ========================================================================
