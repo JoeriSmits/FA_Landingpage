@@ -11,6 +11,10 @@ $global-primary-background: #053178;
   }
 }
 
+nav {
+  z-index: 9999 !important;
+}
+
 // 2. Import default variables and available mixins.
 @import "variables-theme.scss";
 @import "mixins-theme.scss";

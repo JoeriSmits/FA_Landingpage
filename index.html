@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title></title>
-      <link rel="stylesheet" href="css/site.css" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/site.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="uk-offcanvas-content">
 
-      <nav class="uk-navbar-container" uk-navbar>
-        <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="">test</a></li>
-            <li class="uk-parent"><a href="">test2</a></li>
-            <button class="uk-button uk-button-primary">DVD Shop</button>
+      <nav class="uk-navbar-container" uk-navbar uk-sticky>
+        <div class="uk-navbar-right uk-hidden@m">
+          <a class="uk-navbar-toggle" href="#hamburgerMenu" uk-toggle>
+            <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+          </a>
+        </div>
+
+        <div id="hamburgerMenu" class="uk-light uk-hidden@m" uk-offcanvas="flip: true; overlay: true; mode: push">
+          <div class="uk-offcanvas-bar uk-light uk-flex uk-flex-column">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical" uk-scrollspy-nav="closest: li; scroll:true;">
+              <li class="uk-active"><a href="#home">Welkom</a></li>
+              <li><a href="#courses">Het traject</a></li>
+              <li><a href="#platform">Ons platform</a></li>
+              <li><a href="#register">Meld je aan</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="http://shop.flight-academy.nl" target="_blank">DVD Shop</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="uk-navbar-right uk-visible@m">
+          <ul class="uk-navbar-nav" uk-scrollspy-nav="closest: li; scroll:true;">
+            <li class="uk-active"><a href="#home">Welkom</a></li>
+            <li><a href="#courses">Het traject</a></li>
+            <li><a href="#platform">Ons platform</a></li>
+            <li><a href="#register">Meld je aan</a></li>
+            <li><a class="uk-button uk-button-primary" href="http://shop.flight-academy.nl" target="_blank"><span class="uk-light">DVD Shop</span></a></li>
           </ul>
         </div>
       </nav>
 
-      <div class="uk-section uk-section-media uk-background-cover" style="background-image: url('/images/header.jpg')">
+      <div id="home" class="uk-section uk-section-media uk-background-cover" style="background-image: url('/images/header.jpg')">
         <div class="uk-container">
-          <div class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
+          <div class="uk-card uk-card-default uk-card-body uk-width-1-4@l uk-width-1-3@m">
             <h1 class="uk-card-title">Leer vliegen bij de Flight-Academy</h1>
             <p>Een enthousiaste school voor enthousiaste Flight-Simmers. <span class="uk-text-bold">Train 1 op 1 met ervaren instructeurs</span> om jou luchtvaartkennis bij te spijkeren.</p>
-            <button class="uk-button uk-button-primary">Meld je aan</button>
+            <a class="uk-button uk-button-primary" href="#register" uk-scroll>Meld je aan</a>
           </div>
         </div>
       </div>
@@ -32,10 +56,13 @@
           <h1>Ontvang les van ervaren instructeurs die je graag op weg helpen naar <span class="uk-text-bold">het volgende niveau</span>.</h1>
           <p>Samen zijn we al <span class="uk-text-bold">acht jaar</span> bezig om online trainingen te voorzien voor enthousiaste Flight-Simmers. Bij de Flight-Academy wordt je 1 op 1 begeleidt door een ervaren instructeur die inspeelt op je huidige niveau.</p>
           <p>Met onze uitgebreide kennis, documentatie en leer platformen kunnen we je optimaal begeleiden naar het volgende niveau.</p>
+          <a href="#courses" class="uk-text-primary" uk-scroll>
+            <span uk-icon="icon: chevron-down; ratio: 2"></span>
+          </a>
         </div>
       </div>
 
-      <div class="uk-section">
+      <div id="courses" class="uk-section">
         <div class="uk-container">
           <h1>Drie trajecten</h1>
           <span class="uk-text-lead uk-margin-large-left">ingespeelt op ieder's niveau</span>
@@ -150,30 +177,43 @@
         </div>
       </div>
 
-      <div class="uk-section">
+      <div id="platform" class="uk-section">
         <div class="uk-container">
           <h1>Ons training platform</h1>
           <span class="uk-text-lead uk-margin-large-left">de ideale plek om je voortgang te bekijken</span>
 
-          <div class="uk-child-width-expand@m uk-margin-large-top" uk-grid>
+          <div class="uk-child-width-expand@m" uk-grid>
             <div>
                 <div id="logFlights" class="uk-section uk-section-large">
                   <h3 class="uk-heading-line"><span>Log eenvoudig je vluchten</span></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>
+                    Iedere training die je voltooid bij de Flight-Academy wordt bijgehouden op ons training platform.
+                    Zo kun je gemakkelijk je training nog eens terugkijken om te zien wat je beter had kunnen doen.
+                    Je trainer kan ook opmerkingen plaatsen bij bepaalde segmenten in de vlucht. Deze tips kan je gebruiken voor je volgende trainer.
+                  </p>
                 </div>
 
                 <div id="showProgress" class="uk-section uk-section-large">
                   <h3 class="uk-heading-line"><span>Zie je voortgang gemakkelijk terug</span></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>
+                    Tijdens je traject aan de Flight-Academy doorloop je een zorgvuldig programma dat is opgesteld door de Flight-Academy.
+                    Dit programma is opgebouwd om zo goed mogelijk te passen bij je huidige niveau. In ons training platform krijg je inzage in dit programma en kan je de huidige voortgang bekijken.
+                    Voor ieder onderwerp in ons programma hebben we uitgebreide documentatie waar de theorie wordt uitgelegd. Vervolgens ga je samen me je trainer dit in de praktijk toepassen.
+                    Je trainer kan ieder onderwerp in je programma goedkeuren of je eventuele tips geven bij dit onderwerp. Zo heb je gelijk een duidelijk overzicht waar je aan kan werken!
+                  </p>
                 </div>
 
                 <div id="planFlight" class="uk-section uk-section-large">
                   <h3 class="uk-heading-line"><span>Plan je training zorgvuldig</span></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>
+                    Wanneer je een bepaalt niveau hebt bereikt ga je zelfstandig vluchten voorbereiden. Ons training platform biedt tal van mogelijkheden om dit te doen.
+                    Zo bieden we een uitgebreid weer platform waar weerinformatie en voorspelling over de hele wereld kunnen worden opgevraagd. Dit is ook specifiek gericht voor luchtvaart.
+                    Daarnaast bieden we navigatie kaarten die gebruikt kunnen worden om correct te vliegen. Een vluchtplan opsturen? Geen probleem, ons training platform biedt hier mogelijkheden toe en je vliegplan wordt gelijk gevalideerd door EuroControl en je trainer!
+                  </p>
                 </div>
             </div>
             <div id="showCaseLaptopContainer">
-              <div class="uk-section" uk-sticky="bottom: #showCaseLaptopContainer;">
+              <div class="uk-section" uk-sticky="offset: 50; bottom: #showCaseLaptopContainer;">
                 <ul id="showCaseLaptop" class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll:true; offset: 200">
                   <li><a href="#logFlights"><img src="/images/logbook.jpg" alt=""></a></li>
                   <li><a href="#showProgress"><img src="/images/trainingProgress.jpg" alt=""></a></li>
@@ -186,38 +226,33 @@
         </div>
       </div>
 
-      <div class="uk-section">
+      <div id="register" class="uk-section">
         <div class="uk-container uk-container-small">
           <div class="uk-text-center">
             <h1>Meld je aan</h1>
             <p>Nieuwsgierig geworden en wil je alles uit je Flight Simulator halen? Meld je dan vandaag nog aan en laat 1 van onze trainers contact met je opnemen. Samen met je trainer ga je kijken naar je persoonlijke vlieg niveau en bepaal je welk traject je gaat volgen.</p>
-            <p>Vul het onderstaande formulier in om ons te notificeren van je registratie.</p>
+            <p>Vul het onderstaande formulier in om te registreren. U ontvangt een bevestigingsmail met verdere instructies.</p>
           </div>
 
           <div class="uk-flex uk-flex-center uk-margin-medium-top">
             <form class="uk-form-stacked uk-form-width-large">
               <div class="uk-margin">
-                <label class="uk-form-label" for="form-stacked-text">Text</label>
+                <label class="uk-form-label" for="form-stacked-text">Naam</label>
                 <div class="uk-form-controls">
-                  <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                  <input class="uk-input" id="form-stacked-text" type="text" placeholder="Uw naam">
                 </div>
               </div>
 
               <div class="uk-margin">
-                <label class="uk-form-label" for="form-stacked-select">Select</label>
+                <label class="uk-form-label" for="form-stacked-text">E-mail adres</label>
                 <div class="uk-form-controls">
-                  <select class="uk-select" id="form-stacked-select">
-                    <option>Option 01</option>
-                    <option>Option 02</option>
-                  </select>
+                  <input class="uk-input" id="form-stacked-text" type="email" placeholder="E-mail adres">
                 </div>
               </div>
 
-              <div class="uk-margin">
-                <div class="uk-form-label">Radio</div>
+              <div class="uk-margin uk-text-center">
                 <div class="uk-form-controls">
-                  <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
-                  <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+                  <button type="submit" class="uk-button uk-button-primary">Registreer</button>
                 </div>
               </div>
             </form>
@@ -226,12 +261,28 @@
       </div>
 
       <div class="uk-section uk-section-primary">
-
+        <div class="uk-container uk-container-small">
+          <div class="uk-child-width-expand@s uk-flex-middle uk-text-center" uk-grid>
+            <div class="uk-width-2-3@m uk-flex-center@s">
+              <h1>Flight-Academy</h1>
+            </div>
+            <div>
+              <ul class="uk-list uk-text-right@m uk-text-center@s">
+                <li class="uk-text-bold">Stichting Flight-Academy</li>
+                <li class="uk-text-small">KvK: 68440189</li>
+                <li class="uk-text-small"><a href="mailto:info@flight-academy.nl">info@flight-academy.nl</a></li>
+                <li class="uk-text-small">(Web) <a href="tel:31683053193">+31 6 83053193</a></li>
+                <li class="uk-text-small">(Foundation) <a href="tel:31611202910">+31 6 11202910</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <script src="js/lib/jquery-3.2.1.min.js"></script>
-      <script src="js/lib/uikit.min.js"></script>
-      <script src="js/lib/uikit-icons.min.js"></script>
-      <script src="js/quoteSwitcher.js"></script>
-    </body>
+    <script src="js/lib/jquery-3.2.1.min.js"></script>
+    <script src="js/lib/uikit.min.js"></script>
+    <script src="js/lib/uikit-icons.min.js"></script>
+    <script src="js/quoteSwitcher.js"></script>
+  </body>
 </html>
