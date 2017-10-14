@@ -4,6 +4,7 @@
     <title></title>
     <link rel="stylesheet" href="css/site.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow" />
   </head>
   <body>
     <div class="uk-offcanvas-content">
@@ -298,6 +299,16 @@
           jqueryI18next.init(i18next, $);
           $('body').localize();
         });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108122602-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108122602-1');
     </script>
   </body>
 </html>
