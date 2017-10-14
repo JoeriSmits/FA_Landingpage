@@ -1,5 +1,8 @@
 // 1. Your custom variables and variable overwrites.
 $global-primary-background: #053178;
+$pfa-background-color: #0c3821;
+$ifa-background-color: #510307;
+$fa-background-color: #021c44;
 
 #showCaseLaptop {
   li {
@@ -13,6 +16,18 @@ $global-primary-background: #053178;
 
 #navbar {
   z-index: 9999 !important;
+}
+
+#PFA {
+  background-color: $pfa-background-color;
+}
+
+#IFA {
+  background-color: $ifa-background-color;
+}
+
+#FA {
+  background-color: $fa-background-color;
 }
 
 // 2. Import default variables and available mixins.

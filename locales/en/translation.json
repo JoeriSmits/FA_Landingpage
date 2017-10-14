@@ -1,8 +1,113 @@
 {
   "nav": {
-    "home": "Welcome"
+    "home": "Welcome",
+    "courses": "Courses",
+    "platform": "Our platform",
+    "register": "Register as student",
+    "shop": "DVD Shop"
+  },
+  "CTARectangle": {
+    "title": "Learn to fly properly at the Flight-Academy",
+    "content": "An enthusiastic school for Flight Sim enthusiasts. <span class='uk-text-bold'>Train one on one with experienced instructors</span> to step up your aviation knowledge.",
+    "button": "Register"
   },
   "header": {
-    "title": "Get training from experienced instructions who are delighted to bring you to <span class='uk-text-bold'>the next level</span>."
+    "title": "Receive training from experienced instructions who are delighted to bring you to <span class='uk-text-bold'>the next level</span>.",
+    "content": {
+      "1": "We have been busy for eight years to give flight enthusiasts the best online training possible. During your course, you will receive one-on-one training sessions specialized on your current knowledge from your personal instructor.",
+      "2": "With our extensive knowledge, documentation, and training platform we are able to best guide you to the next level."
+    }
+  },
+  "courses": {
+    "title": "Three courses",
+    "subtitle": "Something for everyone's knowledge level",
+    "PFA": {
+      "title": "PreFlight",
+      "content": "Learn the basics of flight. Step-by-step you will learn why an airplane flies, what is needed to go flying, how to navigate on visual recognization points, etc.",
+      "usp": {
+        "1": "Learn how to properly fly a circuit",
+        "2": "How do I communicate with air traffic control?",
+        "3": "How do I read the weather?"
+      }
+    },
+    "IFA": {
+      "title": "IRFlight",
+      "content": "How do planes fly when the pilot cannot look outside, due to fog? We will take a twin-engine plane and start to work on procedures. What happens when one engine fails, for example?",
+      "usp": {
+        "1": "Learn how to fly and navigate using only instruments.",
+        "2": "How to fly a proper holding pattern?",
+        "3": "How do I execute an ILS without autopilot?"
+      }
+    },
+    "FA": {
+      "title": "Flight",
+      "content": "Our last course contains the commercial face of aviation. We will take an airliner and fly longer flights. You will learn how to handle all this advanced equipment and use it you make your flight easier.",
+      "usp": {
+        "1": "How to calculate a proper fuel calcuation?",
+        "2": "What is a flight computer and what if it fails?",
+        "3": "How do I fly a circling procedure?"
+      }
+    }
+  },
+  "route": {
+    "title": "Our approach",
+    "content": {
+      "1": "Your course at the Flight-Academy will start with the first interview between you and your personal instructor. Besides a nice conversation, the interview is meant to get to know what course suits your knowledge level best.",
+      "2": "Every course at the Flight-Academy contains certain subjects. Every subject will be trained with your instructor. When you finished a course there will be a check with another instructor to be sure that you have a certain knowledge level. If you succeed you will receive a beautiful certificate."
+    }
+  },
+  "quotes": {
+    "1": {
+      "quote": "“The Flight Academy is a place to learn more than just the basics of flying. The trainers take a lot of time for you to learn exactly what the theory contains and how to apply this in practice.”",
+      "author": "Koen Schimmel"
+    },
+    "2": {
+      "quote": "“After many years of just fluttering about, I decided to learn to fly properly, 'by the book' so to speak. And so far I did not regret this decision for one single moment.”",
+      "author": "Peter F. Schalk"
+    },
+    "3": {
+      "quote": "“I looked for personal support and soon came in contact with the Flight Academy where expert instructors taught me all ins and outs of VFR flying.”",
+      "author": "Arie Penning"
+    },
+    "4": {
+      "quote": "“The Flight Academy is an excellent group who teaches you great things to make flying as realistic as possible.”",
+      "author": "Yassin Mortelmans"
+    }
+  },
+  "platform": {
+    "title": "Our training platform",
+    "subtitle": "an ideale place to watch your progress",
+    "usp": {
+      "1": {
+        "title": "Easily log your flights",
+        "content": "Every training will be logged in your personal logbook at the Flight-Academy. This enables you to take another look at your performance and review this with your trainer. Your trainer can also add notes to certain segments in your flight."
+      },
+      "2": {
+        "title": "See your training progress",
+        "content": "During your course at the Flight-Academy, you will work through a personalized training program. This program has been created to best adapt to your current knowledge level. There will be sufficient theoretical documents for every subject in this training program where you will learn most of the theory. Every subject will be put to practice together with your personal trainer. Your trainer will update your training program according to your progress."
+      },
+      "3": {
+        "title": "Flight planning made easy",
+        "content": "Our platform offers you a ton of options to plan your flight. We provide advanced weather information applied to aviation. Besides the weather, we provide navigational documents, and the ability to submit a flight plan which will be validated by Eurocontrol and your personal trainer."
+      }
+    }
+  },
+  "register": {
+    "title": "Register as student",
+    "content": {
+      "1": "Got curious, and do you want to learn more? Register today as a student and let one of our instructors contact you.",
+      "2": "Fill in the form below to register. You will get a confirmation email with further instructions."
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "e-mail": {
+        "label": "Email adres",
+        "placeholder": "Your email adres"
+      },
+      "submitButton": "Register"
+    }
   }
 }

@@ -14,7 +14,7 @@
   "header": {
     "title": "Ontvang les van ervaren instructeurs die je graag op weg helpen naar <span class='uk-text-bold'>het volgende niveau</span>.",
     "content": {
-      "1": "Samen zijn we al <span class='uk-text-bold'>acht jaar</span> bezig om online trainingen te voorzien voor enthousiaste Flight-Simmers. Bij de Flight-Academy wordt je 1 op 1 begeleidt door een ervaren instructeur die inspeelt op je huidige niveau.",
+      "1": "We zijn al <span class='uk-text-bold'>acht jaar</span> lang bezig om online trainingen te voorzien voor enthousiaste Flight-Simmers. Bij de Flight-Academy wordt je 1 op 1 begeleidt door een ervaren instructeur die inspeelt op je huidige niveau.",
       "2": "Met onze uitgebreide kennis, documentatie en leer platformen kunnen we je optimaal begeleiden naar het volgende niveau."
     }
   },
@@ -25,14 +25,14 @@
       "title": "PreFlight",
       "content": "Leer de basis van het vliegen met een klein toestel, <span class='uk-text-bold'>stap voor stap</span>. Waarom vliegt een vliegtuig? Wat hebben we nodig om te mogen vliegen? Hoe navigeer ik op basis van visuele herkenningspunten? Etc.",
       "usp": {
-        "1": "Circuit vliegen met een klein vliegtuig",
+        "1": "Leer hoe je een goed circuit vliegt.",
         "2": "Hoe praat ik met de luchtverkeersleiding?",
         "3": "Hoe lees ik het weer voor de luchtvaart?"
       }
     },
     "IFA": {
       "title": "IRFlight",
-      "content": "Hoe is het om zonder zicht op instrumenten te vliegen? We stappen dit keer in een twee motorig toestel, met bespreken daarbij alle procedures. Wat gebeurt er als 1 motor uitvalt? Etc.",
+      "content": "Hoe is het om zonder zicht op instrumenten te vliegen? We stappen dit keer in een twee motorig toestel, en bespreken daarbij alle procedures. Wat gebeurt er als 1 motor uitvalt? Etc.",
       "usp": {
         "1": "Leer om op instrumenten te vliegen en navigeren",
         "2": "Hoe maak ik een correct holding in de lucht?",
@@ -44,7 +44,7 @@
       "content": "Ons laatste traject bestaat uit de commerciele kant van de luchtvaart. We stappen in een airliner en gaan langere vluchten maken. We hebben uitgebreidere systemen aan boord, hoe gaan we daar mee om? Etc.",
       "usp": {
         "1": "Hoe maak ik een correct brandstof berekening?",
-        "2": "Wat is de boordcomputer en hoe gebruik ik die?",
+        "2": "Wat is de boordcomputer en wat als die uitvalt?",
         "3": "Hoe vlieg ik een correct circling procedure?"
       }
     }
@@ -52,8 +52,8 @@
   "route": {
     "title": "Het traject",
     "content": {
-      "1": "Je traject bij de Flight-Academy begint bij je registratie. Na je registratie worden al onze trainers genotificeerd. Een geschikte trainer zal vanzelf contact met je opnemen om een tijdstip te plannen voor een kenningsmakingsgesprek. Naast een leuke kenningsmaking wordt er in dit gesprek duidelijk welk traject het beste bij je huidige kennis niveau ligt. Na dit gesprek plan je al gelijk een moment om de eerste les in te plannen.",
-      "2": "Gemiddeld duurt een traject bij de Flight-Academy 3/4 jaar. Wanneer jijzelf en je trainer het traject hebben afgerond wordt er een check gedaan met een andere trainer. Dit kan worden gezien als een examen waarna indien goedgekeurd certificering uit zal volgen. Na het afronden van een traject kan je zelf bepalen of je door wilt stromen naar een volgend traject."
+      "1": "Na je registratie worden al onze trainers genotificeerd van je registratie. Een geschikte trainer zal vanzelf contact met je opnemen om een kenningsmakingsgesprek te plannen. Naast een leuke kenningsmaking wordt er in dit gesprek duidelijk welk traject het beste bij je huidige kennis niveau ligt.",
+      "2": "Ieder traject behandelt verschillende onderwerpen. Hier wordt zowel de theorie als de praktijk behandelt. Wanneer jijzelf en je trainer het traject hebben afgerond wordt er een check gedaan met een andere trainer. Dit kan worden gezien als een examen waarna indien goedgekeurd certificering uit zal volgen. Na het afronden van een traject kan je zelf bepalen of je door wilt stromen naar een volgend traject."
     }
   },
   "quotes": {
@@ -87,7 +87,7 @@
         "content": "Tijdens je traject aan de Flight-Academy doorloop je een zorgvuldig programma dat is opgesteld door de Flight-Academy. Dit programma is opgebouwd om zo goed mogelijk te passen bij je huidige niveau. In ons training platform krijg je inzage in dit programma en kan je de huidige voortgang bekijken. Voor ieder onderwerp in ons programma hebben we uitgebreide documentatie waar de theorie wordt uitgelegd. Vervolgens ga je samen me je trainer dit in de praktijk toepassen. Je trainer kan ieder onderwerp in je programma goedkeuren of je eventuele tips geven bij dit onderwerp. Zo heb je gelijk een duidelijk overzicht waar je aan kan werken!"
       },
       "3": {
-        "title": "Plan je training zorgvuldig",
+        "title": "Een vlucht plannen wordt gemakkelijk",
         "content": "Wanneer je een bepaalt niveau hebt bereikt ga je zelfstandig vluchten voorbereiden. Ons training platform biedt tal van mogelijkheden om dit te doen. Zo bieden we een uitgebreid weer platform waar weerinformatie en voorspelling over de hele wereld kunnen worden opgevraagd. Dit is ook specifiek gericht voor luchtvaart. Daarnaast bieden we navigatie kaarten die gebruikt kunnen worden om correct te vliegen. Een vluchtplan opsturen? Geen probleem, ons training platform biedt hier mogelijkheden toe en je vliegplan wordt gelijk gevalideerd door EuroControl en je trainer!"
       }
     }
@@ -96,7 +96,7 @@
     "title": "Meld je aan",
     "content": {
       "1": "Nieuwsgierig geworden en wil je alles uit je Flight Simulator halen? Meld je dan vandaag nog aan en laat 1 van onze trainers contact met je opnemen. Samen met je trainer ga je kijken naar je persoonlijke vlieg niveau en bepaal je welk traject je gaat volgen.",
-      "2": "Vul het onderstaande formulier in om te registreren. U ontvangt een bevestigingsmail met verdere instructies."
+      "2": "Vul het onderstaande formulier in om te registreren. Je ontvangt een bevestigingsmail met verdere instructies."
     },
     "form": {
       "name": {
