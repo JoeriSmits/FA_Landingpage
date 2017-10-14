@@ -12,7 +12,7 @@
     "button": "Register"
   },
   "header": {
-    "title": "Receive training from experienced instructions who are delighted to bring you to <span class='uk-text-bold'>the next level</span>.",
+    "title": "Receive training from experienced instructors who are delighted to bring you to <span class='uk-text-bold'>the next level</span>.",
     "content": {
       "1": "We have been busy for eight years to give flight enthusiasts the best online training possible. During your course, you will receive one-on-one training sessions specialized on your current knowledge from your personal instructor.",
       "2": "With our extensive knowledge, documentation, and training platform we are able to best guide you to the next level."
@@ -43,7 +43,7 @@
       "title": "Flight",
       "content": "Our last course contains the commercial face of aviation. We will take an airliner and fly longer flights. You will learn how to handle all this advanced equipment and use it you make your flight easier.",
       "usp": {
-        "1": "How to calculate a proper fuel calcuation?",
+        "1": "How to execute a proper fuel calcuation?",
         "2": "What is a flight computer and what if it fails?",
         "3": "How do I fly a circling procedure?"
       }
