@@ -8,7 +8,7 @@
     }
     $(triggers[currentPosition]).trigger('click');
     currentPosition++;
-  }, 5000);
+  }, 8000);
 
   triggers.on('click', (e) => {
     if(e.hasOwnProperty('originalEvent')) {
