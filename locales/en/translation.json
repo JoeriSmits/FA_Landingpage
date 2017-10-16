@@ -100,12 +100,12 @@
     },
     "form": {
       "name": {
-        "label": "Name",
-        "placeholder": "Your name"
+        "label": "Your name",
+        "placeholder": "Ex. Joe Smith"
       },
       "e-mail": {
-        "label": "Email adres",
-        "placeholder": "Your email adres"
+        "label": "Your email adres",
+        "placeholder": "Ex. joe.smith@gmail.com"
       },
       "submitButton": "Register"
     }

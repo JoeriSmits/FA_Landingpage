@@ -100,12 +100,12 @@
     },
     "form": {
       "name": {
-        "label": "Naam",
-        "placeholder": "Je naam"
+        "label": "Je naam",
+        "placeholder": "Bv. Jan Janssen"
       },
       "e-mail": {
-        "label": "E-mailadres",
-        "placeholder": "Je e-mailadres"
+        "label": "Je e-mailadres",
+        "placeholder": "Bv. jan.janssen@gmail.com"
       },
       "submitButton": "Registreer"
     }
