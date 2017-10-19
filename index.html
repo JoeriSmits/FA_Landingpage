@@ -217,18 +217,18 @@
           </div>
 
           <div class="uk-flex uk-flex-center uk-margin-medium-top">
-            <form class="uk-form-stacked uk-form-width-large">
+            <form id="registerForm" class="uk-form-stacked uk-form-width-large">
               <div class="uk-margin">
                 <label class="uk-form-label" for="form-stacked-text" data-i18n="register.form.name.label"></label>
                 <div class="uk-form-controls">
-                  <input class="uk-input" id="form-stacked-text" type="text" data-i18n="[placeholder]register.form.name.placeholder">
+                  <input name="name" class="uk-input" id="form-stacked-text" type="text" data-i18n="[placeholder]register.form.name.placeholder">
                 </div>
               </div>
 
               <div class="uk-margin">
                 <label class="uk-form-label" for="form-stacked-text" data-i18n="register.form.e-mail.label"></label>
                 <div class="uk-form-controls">
-                  <input class="uk-input" id="form-stacked-text" type="email" data-i18n="[placeholder]register.form.e-mail.placeholder">
+                  <input name="email" class="uk-input" id="form-stacked-text" type="email" data-i18n="[placeholder]register.form.e-mail.placeholder">
                 </div>
               </div>
 
@@ -266,6 +266,7 @@
     <script src="js/lib/uikit.min.js"></script>
     <script src="js/lib/uikit-icons.min.js"></script>
     <script src="js/quoteSwitcher.js"></script>
+    <script src="js/sendForm.js"></script>
     <script src="js/lib/i18next/i18next.min.js" ></script>
     <script src="js/lib/i18next/jquery-i18next.min.js" ></script>
     <script src="js/lib/i18next/i18nextXHRBackend.min.js" ></script>
