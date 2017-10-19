@@ -4,7 +4,7 @@ $('#registerForm').submit((e) => {
   const formData = $('#registerForm').serializeArray();
 
   $.ajax({
-    url: 'http://localhost:3000/users/add',
+    url: 'https://dashboard.flight-academy.nl/users/add',
     type: 'POST',
     data: {
       name: formData[0].value,
