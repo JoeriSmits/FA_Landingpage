@@ -109,5 +109,11 @@
       },
       "submitButton": "Register"
     }
+  },
+  "notification": {
+    "sendMail": {
+      "success": "<span uk-icon='icon: check'></span> Thanks for registering, we did send you an email.",
+      "error": "<span uk-icon='icon: warning'></span> Unfortunately something went wrong, please try again."
+    }
   }
 }

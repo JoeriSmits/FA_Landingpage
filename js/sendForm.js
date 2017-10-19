@@ -3,14 +3,30 @@ $('#registerForm').submit((e) => {
 
   const formData = $('#registerForm').serializeArray();
 
-  $.post('http://localhost:3000/users/add', {
-    name: formData[0].value,
-    email: formData[1].value
-  })
-  .done(() => {
-    console.log('success');
-  })
-  .fail(() => {
-    console.error('error');
+  $.ajax({
+    url: 'http://localhost:3000/users/add',
+    type: 'POST',
+    data: {
+      name: formData[0].value,
+      email: formData[1].value
+    },
+    dataType: 'json',
+    success: () => {
+      UIkit.notification({
+        message: i18next.t('notification.sendMail.success'),
+        status: 'success',
+        pos: 'bottom-center',
+        timeout: 5000
+      });
+      $('#registerForm')[0].reset();
+    },
+    error: () => {
+      UIkit.notification({
+        message: i18next.t('notification.sendMail.error'),
+        status: 'danger',
+        pos: 'bottom-center',
+        timeout: 5000
+      });
+    }
   });
 });

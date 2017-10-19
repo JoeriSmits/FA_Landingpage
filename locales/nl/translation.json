@@ -109,5 +109,11 @@
       },
       "submitButton": "Registreer"
     }
+  },
+  "notification": {
+    "sendMail": {
+      "success": "<span uk-icon='icon: check'></span> Bedankt voor het registeren, we hebben je een e-mail gestuurd.",
+      "error": "<span uk-icon='icon: warning'></span> Er ging iets mis, probeer het opnieuw."
+    }
   }
 }
