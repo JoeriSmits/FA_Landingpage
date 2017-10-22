@@ -16,6 +16,9 @@
 #FA {
   background-color: #021c44; }
 
+#quotes {
+  min-height: 270px; }
+
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -9935,3 +9938,5 @@ td.uk-text-break {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+/*# sourceMappingURL=style.css.map */

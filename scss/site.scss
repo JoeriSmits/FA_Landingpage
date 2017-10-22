@@ -30,6 +30,10 @@ $fa-background-color: #021c44;
   background-color: $fa-background-color;
 }
 
+#quotes {
+  min-height: 270px;
+}
+
 // 2. Import default variables and available mixins.
 @import "variables-theme.scss";
 @import "mixins-theme.scss";
