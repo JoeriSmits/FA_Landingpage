@@ -1,4 +1,4 @@
-$('#registerForm').submit((e) => {
+$('#registerForm').submit(function() {
   e.preventDefault();
 
   const formData = $('#registerForm').serializeArray();
@@ -11,7 +11,7 @@ $('#registerForm').submit((e) => {
       email: formData[1].value
     },
     dataType: 'json',
-    success: () => {
+    success: function() {
       UIkit.notification({
         message: i18next.t('notification.sendMail.success'),
         status: 'success',
@@ -20,7 +20,7 @@ $('#registerForm').submit((e) => {
       });
       $('#registerForm')[0].reset();
     },
-    error: () => {
+    error: function() {
       UIkit.notification({
         message: i18next.t('notification.sendMail.error'),
         status: 'danger',
