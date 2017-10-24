@@ -8,16 +8,13 @@
   z-index: 9999 !important; }
 
 #PFA {
-  background-color: #0c3821; }
+  background-color: #0c3821 !important; }
 
 #IFA {
-  background-color: #510307; }
+  background-color: #510307 !important; }
 
 #FA {
-  background-color: #021c44; }
-
-#quotes {
-  min-height: 270px; }
+  background-color: #021c44 !important; }
 
 /* ========================================================================
    Component: Base
@@ -9938,5 +9935,8 @@ td.uk-text-break {
   h2,
   h3 {
     page-break-after: avoid; } }
+#quotes {
+  min-height: 270px;
+  background-color: #222 !important; }
 
 /*# sourceMappingURL=style.css.map */

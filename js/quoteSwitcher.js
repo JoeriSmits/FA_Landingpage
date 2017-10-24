@@ -1,4 +1,4 @@
-(() => {
+(function() {
   const triggers = $('#quoteSwitcher').children();
   let currentPosition = 1;
 

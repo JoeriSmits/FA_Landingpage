@@ -19,19 +19,15 @@ $fa-background-color: #021c44;
 }
 
 #PFA {
-  background-color: $pfa-background-color;
+  background-color: $pfa-background-color !important;
 }
 
 #IFA {
-  background-color: $ifa-background-color;
+  background-color: $ifa-background-color !important;
 }
 
 #FA {
-  background-color: $fa-background-color;
-}
-
-#quotes {
-  min-height: 270px;
+  background-color: $fa-background-color !important;
 }
 
 // 2. Import default variables and available mixins.
@@ -40,3 +36,8 @@ $fa-background-color: #021c44;
 
 // 4. Import UIkit.
 @import "uikit-theme.scss";
+
+#quotes {
+  min-height: 270px;
+  background-color: $global-secondary-background !important;
+}
