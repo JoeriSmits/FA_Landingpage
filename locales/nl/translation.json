@@ -8,35 +8,35 @@
   },
   "CTARectangle": {
     "title": "Leer vliegen bij de Flight-Academy",
-    "content": "Een enthousiaste school voor enthousiaste Flight-Simmers. <span class='uk-text-bold'>Train 1 op 1 met ervaren instructeurs</span> om jou luchtvaartkennis bij te spijkeren.",
+    "content": "Een enthousiaste school voor enthousiaste Flight-Simmers. <span class='uk-text-bold'>Train 1 op 1 met ervaren instructeurs</span> om jouw luchtvaartkennis bij te spijkeren.",
     "button": "Meld je aan"
   },
   "header": {
     "title": "Ontvang les van ervaren instructeurs die je graag op weg helpen naar <span class='uk-text-bold'>het volgende niveau</span>.",
     "content": {
-      "1": "We zijn al <span class='uk-text-bold'>acht jaar</span> lang bezig om online trainingen te voorzien voor enthousiaste Flight-Simmers. Bij de Flight-Academy wordt je 1 op 1 begeleidt door een ervaren instructeur die inspeelt op je huidige niveau.",
-      "2": "Met onze uitgebreide kennis, documentatie en leer platformen kunnen we je optimaal begeleiden naar het volgende niveau."
+      "1": "We zijn al <span class='uk-text-bold'>acht jaar</span> lang bezig om online trainingen te voorzien voor enthousiaste Flight-Simmers. Bij de Flight-Academy wordt je 1 op 1 begeleid door een ervaren instructeur die inspeelt op je huidige niveau.",
+      "2": "Met onze uitgebreide kennis, documentatie en leer-platformen kunnen we je optimaal begeleiden naar het volgende niveau."
     }
   },
   "courses": {
     "title": "Drie trajecten",
-    "subtitle": "ingespeelt op ieder's niveau",
+    "subtitle": "ingespeeld op ieder's niveau",
     "PFA": {
       "title": "PreFlight",
       "content": "Leer de basis van het vliegen met een klein toestel, <span class='uk-text-bold'>stap voor stap</span>. Waarom vliegt een vliegtuig? Wat hebben we nodig om te mogen vliegen? Hoe navigeer ik op basis van visuele herkenningspunten? Etc.",
       "usp": {
         "1": "Leer hoe je een goed circuit vliegt.",
         "2": "Hoe praat ik met de luchtverkeersleiding?",
-        "3": "Hoe lees ik het weer voor de luchtvaart?"
+        "3": "Hoe lees ik het weerbericht voor de luchtvaart?"
       }
     },
     "IFA": {
       "title": "IRFlight",
-      "content": "Hoe is het om zonder zicht op instrumenten te vliegen? We stappen dit keer in een twee motorig toestel, en bespreken daarbij alle procedures. Wat gebeurt er als 1 motor uitvalt? Etc.",
+      "content": "Hoe is het om zonder zicht op instrumenten te vliegen? We stappen dit keer in een twee-motorig toestel, en bespreken daarbij alle procedures. Wat gebeurt er als 1 motor uitvalt? Etc.",
       "usp": {
         "1": "Leer om op instrumenten te vliegen en navigeren",
         "2": "Hoe maak ik een correcte holding in de lucht?",
-        "3": "Hoe vlieg ik een ILS zonder auto piloot?"
+        "3": "Hoe vlieg ik een ILS zonder autopilot?"
       }
     },
     "FA": {
@@ -52,25 +52,25 @@
   "route": {
     "title": "Het traject",
     "content": {
-      "1": "Je traject bij de Flight-Academy start met een kenningsmakingsgesprek met je persoonlijke trainer. Naast een leuke kenningsmaking wordt er in dit gesprek duidelijk welk traject het beste bij je huidige kennis niveau ligt.",
-      "2": "Ieder traject behandelt verschillende onderwerpen. Hier wordt zowel de theorie als de praktijk behandelt. Wanneer jijzelf en je trainer het traject hebben afgerond wordt er een check gedaan met een andere trainer. Dit kan worden gezien als een examen waarna indien goedgekeurd certificering uit zal volgen. Na het afronden van een traject kan je zelf bepalen of je door wilt stromen naar een volgend traject."
+      "1": "Je traject bij de Flight-Academy start met een kennismakingsgesprek met je persoonlijke trainer. Naast een leuke kennismaking wordt er in dit gesprek duidelijk welk traject het beste bij je huidige kennis niveau ligt.",
+      "2": "Ieder traject behandelt verschillende onderwerpen. Hier wordt zowel de theorie als de praktijk behandeld. Wanneer jijzelf en je trainer het traject hebben afgerond wordt er een check gedaan met een andere trainer. Dit kan worden gezien als een examen waarna indien goedgekeurd certificering zal volgen. Na het afronden van een traject kan je zelf bepalen of je door wilt stromen naar een volgend traject."
     }
   },
   "quotes": {
     "1": {
-      "quote": "“The Flight Academy is a place to learn more than just the basics of flying. The trainers take a lot of time for you to learn exactly what the theory contains and how to apply this in practice.”",
+      "quote": "The Flight Academy is a place to learn more than just the basics of flying. The trainers take a lot of time for you to learn exactly what the theory contains and how to apply this in practice.",
       "author": "Koen Schimmel"
     },
     "2": {
-      "quote": "“After many years of just fluttering about, I decided to learn to fly properly, 'by the book' so to speak. And so far I did not regret this decision for one single moment.”",
+      "quote": "After many years of just fluttering about, I decided to learn to fly properly, 'by the book' so to speak. And so far I did not regret this decision for one single moment.",
       "author": "Peter F. Schalk"
     },
     "3": {
-      "quote": "“I looked for personal support and soon came in contact with the Flight Academy where expert instructors taught me all ins and outs of VFR flying.”",
+      "quote": "I looked for personal support and soon came in contact with the Flight Academy where expert instructors taught me all ins and outs of VFR flying.",
       "author": "Arie Penning"
     },
     "4": {
-      "quote": "“The Flight Academy is an excellent group who teaches you great things to make flying as realistic as possible.”",
+      "quote": "The Flight Academy is an excellent group who teaches you great things to make flying as realistic as possible.",
       "author": "Yassin Mortelmans"
     }
   },
@@ -80,22 +80,22 @@
     "usp": {
       "1": {
         "title": "Log eenvoudig je vluchten",
-        "content": "Iedere training die je voltooid bij de Flight-Academy wordt bijgehouden op ons training platform. Zo kun je gemakkelijk je training nog eens terugkijken om te zien wat je beter had kunnen doen. Je trainer kan ook opmerkingen plaatsen bij bepaalde segmenten in de vlucht. Deze tips kan je gebruiken voor je volgende training."
+        "content": "Iedere training die je voltooit bij de Flight-Academy wordt bijgehouden op ons training platform. Zo kun je gemakkelijk je training nog eens terugkijken om te zien wat je beter had kunnen doen. Je trainer kan ook opmerkingen plaatsen bij bepaalde segmenten in de vlucht. Deze tips kan je gebruiken voor je volgende training."
       },
       "2": {
         "title": "Zie je voortgang gemakkelijk terug",
-        "content": "Tijdens je traject aan de Flight-Academy doorloop je een zorgvuldig programma dat is opgesteld door de Flight-Academy. Dit programma is opgebouwd om zo goed mogelijk te passen bij je huidige niveau. In ons training platform krijg je inzage in dit programma en kan je de huidige voortgang bekijken. Voor ieder onderwerp in ons programma hebben we uitgebreide documentatie waar de theorie wordt uitgelegd. Vervolgens ga je samen me je trainer dit in de praktijk toepassen. Je trainer kan ieder onderwerp in je programma goedkeuren of je eventuele tips geven bij dit onderwerp. Zo heb je gelijk een duidelijk overzicht waar je aan kan werken!"
+        "content": "Tijdens je traject aan de Flight-Academy doorloop je een programma dat zorgvuldig is opgesteld door de Flight-Academy. Dit programma is opgebouwd om zo goed mogelijk te passen bij je huidige niveau. In ons training platform krijg je inzage in dit programma en kan je de huidige voortgang bekijken. Voor ieder onderwerp in ons programma hebben we uitgebreide documentatie waar de theorie wordt uitgelegd. Vervolgens ga je samen me je trainer dit in de praktijk toepassen. Je trainer kan ieder onderwerp in je programma goedkeuren of je eventuele tips geven bij dit onderwerp. Zo heb je gelijk een duidelijk overzicht waar je aan kan werken!"
       },
       "3": {
         "title": "Een vlucht plannen wordt gemakkelijk",
-        "content": "Wanneer je een bepaalt niveau hebt bereikt ga je zelfstandig vluchten voorbereiden. Ons training platform biedt tal van mogelijkheden om dit te doen. Zo bieden we een uitgebreid weer platform waar weerinformatie en voorspelling over de hele wereld kunnen worden opgevraagd. Dit is ook specifiek gericht voor luchtvaart. Daarnaast bieden we navigatie kaarten die gebruikt kunnen worden om correct te vliegen. Een vluchtplan opsturen? Geen probleem, ons training platform biedt hier mogelijkheden toe en je vliegplan wordt gelijk gevalideerd door EuroControl en je trainer!"
+        "content": "Wanneer je een bepaald niveau hebt bereikt ga je zelfstandig vluchten voorbereiden. Ons training platform biedt tal van mogelijkheden om dit te doen. Zo bieden we een uitgebreid weer-platform waar weersinformatie en -voorspelling over de hele wereld kunnen worden opgevraagd. Dit is ook specifiek gericht op de luchtvaart. Daarnaast bieden we navigatiekaarten die gebruikt kunnen worden om correct te vliegen. Een vluchtplan opsturen? Geen probleem, ons training platform biedt hier mogelijkheden toe en je vliegplan wordt gelijk gevalideerd door EuroControl en je trainer!"
       }
     }
   },
   "register": {
     "title": "Meld je aan",
     "content": {
-      "1": "Nieuwsgierig geworden en wil je alles uit je Flight Simulator halen? Meld je dan vandaag nog aan en laat 1 van onze trainers contact met je opnemen. Samen met je trainer ga je kijken naar je persoonlijke vlieg niveau en bepaal je welk traject je gaat volgen.",
+      "1": "Nieuwsgierig geworden en wil je alles uit je Flight Simulator halen? Meld je dan vandaag nog aan en laat 1 van onze trainers contact met je opnemen. Samen met je trainer ga je kijken naar je persoonlijke vliegniveau en bepaal je welk traject je gaat volgen.",
       "2": "Vul het onderstaande formulier in om te registreren. Je ontvangt een bevestigingsmail met verdere instructies."
     },
     "form": {
