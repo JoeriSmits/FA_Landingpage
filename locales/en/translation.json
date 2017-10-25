@@ -8,13 +8,13 @@
   },
   "CTARectangle": {
     "title": "Learn to fly properly at the Flight-Academy",
-    "content": "An enthusiastic school for Flight Sim enthusiasts. <span class='uk-text-bold'>Train one on one with experienced instructors</span> to step up your aviation knowledge.",
+    "content": "An enthusiastic school for Flight Sim enthusiasts. <span class='uk-text-bold'>Train one-on-one with experienced instructors</span> to step up your aviation knowledge.",
     "button": "Register"
   },
   "header": {
     "title": "Receive training from experienced instructors who are delighted to bring you to <span class='uk-text-bold'>the next level</span>.",
     "content": {
-      "1": "We have been busy for eight years to give flight enthusiasts the best online training possible. During your course, you will receive one-on-one training sessions specialized on your current knowledge from your personal instructor.",
+      "1": "We have been busy for eight years to give flight enthusiasts the best online training possible. During your course, you will receive one-on-one training sessions tailored to your current knowledge from your personal instructor.",
       "2": "With our extensive knowledge, documentation, and training platform we are able to guide you to the next level."
     }
   },
@@ -41,9 +41,9 @@
     },
     "FA": {
       "title": "Flight",
-      "content": "Our last course contains the commercial face of aviation. We will take an airliner and fly longer flights. You will learn how to handle all this advanced equipment and use it you make your flight easier.",
+      "content": "Our last course contains the commercial face of aviation. We will take an airliner and fly longer flights. You will learn how to handle all this advanced equipment and use it to make your flight easier.",
       "usp": {
-        "1": "How to execute a proper fuel calcuation?",
+        "1": "How to execute a proper fuel calculation?",
         "2": "What is a flight computer and what if it fails?",
         "3": "How do I fly a circling procedure?"
       }
@@ -53,7 +53,7 @@
     "title": "Our approach",
     "content": {
       "1": "Your course at the Flight-Academy will start with the first interview between you and your personal instructor. Besides a nice conversation, the interview is meant to get to know what course suits your knowledge level best.",
-      "2": "Every course at the Flight-Academy contains certain subjects. Every subject will be trained with your instructor. When you finished a course there will be a check with another instructor to see if you have reached our standards. If you succeed you will receive a beautiful certificate."
+      "2": "Every course at the Flight-Academy contains certain subjects. Every subject will be trained with your instructor. When you finished a course there will be a check by another instructor to see if you have reached our standards. If you succeed you will receive a beautiful certificate."
     }
   },
   "quotes": {
@@ -76,7 +76,7 @@
   },
   "platform": {
     "title": "Our training platform",
-    "subtitle": "an ideale place to watch your progress",
+    "subtitle": "an ideal place to watch your progress",
     "usp": {
       "1": {
         "title": "Easily log your flights",
