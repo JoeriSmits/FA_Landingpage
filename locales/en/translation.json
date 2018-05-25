@@ -107,6 +107,9 @@
         "label": "Your email adres",
         "placeholder": "Ex. joe.smith@gmail.com"
       },
+      "policy": {
+        "title": "By registering you automatically agree with our <a href='https://goo.gl/6Tn7Y5' target='_blank'>privacy policy</a>."
+      },
       "submitButton": "Register"
     }
   },

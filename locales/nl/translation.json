@@ -107,6 +107,9 @@
         "label": "Je e-mailadres",
         "placeholder": "Bv. jan.janssen@gmail.com"
       },
+      "policy": {
+        "title": "Door te registeren ga je automatisch akkoord met onze <a href='https://goo.gl/6Tn7Y5' target='_blank'>privacy policy</a>."
+      },
       "submitButton": "Registreer"
     }
   },
