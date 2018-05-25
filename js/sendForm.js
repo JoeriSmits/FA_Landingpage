@@ -1,4 +1,4 @@
-$('#registerForm').submit(function() {
+$('#registerForm').submit(function(e) {
   e.preventDefault();
 
   const formData = $('#registerForm').serializeArray();
