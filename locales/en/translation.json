@@ -95,7 +95,7 @@
   "register": {
     "title": "Register as student",
     "content": {
-      "1": "Got curious, and do you want to learn more? Register today as a student and let one of our instructors contact you.",
+      "1": "Unfortunately, due to the many students that are already subscribed and are on the waiting list. We, at the moment, cannot accept any more new students. Please, checkout this website later if you would like to register.",
       "2": "In order to cover our expenses we ask a small contribution of €12,50 after registration. Fill in the form below to register. You will get a confirmation email with further instructions."
     },
     "form": {
